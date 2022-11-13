@@ -1,0 +1,19 @@
+{
+  "name": "eric-chat-app",
+  "version": "1.0.0",
+  "description": "_Note: Backend code can be found [here](https://github.com/et-codes/chat-backend)._",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix front-end && npm run build --prefix front-end && mv front-end/build back-end/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andysterks/eric-chat-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andysterks/eric-chat-app/issues"
+  },
+  "homepage": "https://github.com/andysterks/eric-chat-app#readme"
+}
