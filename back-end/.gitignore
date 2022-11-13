@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# front end build files
+/build
+
 # C extensions
 *.so
 
