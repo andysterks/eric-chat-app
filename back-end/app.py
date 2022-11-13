@@ -8,7 +8,6 @@ from flask import Flask, request
 from flask_cors import CORS
 from flask_socketio import SocketIO
 
-
 # Load environment variables
 load_dotenv()
 SECRET_KEY = os.environ.get('SECRET_KEY')
@@ -177,6 +176,6 @@ def ping(username):
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5001))
     print('Server running on port', port)
-    socketio.run(app, port=port)
+    socketio.run(app, port=port, debug=True)
